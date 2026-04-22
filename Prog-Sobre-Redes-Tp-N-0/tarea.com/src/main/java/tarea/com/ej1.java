@@ -8,13 +8,12 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
 public class ej1 {
-	private static BufferedReader lector;
-	private static PrintWriter out;
+	
+	public static void main(String[] args) {
 
 	
-	public ej1(){
-		lector = new BufferedReader(  new InputStreamReader(System.in) );
-		out = new PrintWriter( new BufferedWriter( new OutputStreamWriter(System.out) ) ,true );
+		BufferedReader lector = new BufferedReader(  new InputStreamReader(System.in) );
+		PrintWriter out = new PrintWriter( new BufferedWriter( new OutputStreamWriter(System.out) ) ,true );
 	
       out.println("ingrese el nombre de la organizacion: ");	
       
@@ -43,7 +42,8 @@ public class ej1 {
 	} 
 	
 	
-	}
+	
 	
 
+}
 }
