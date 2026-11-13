@@ -1,0 +1,115 @@
+[SERVIDOR] Escuchando en el puerto 5000
+
+[SERVIDOR] Carpeta de la nube: C:\Users\Redes-20\Desktop\TP-7\tp-7\nube_servidor
+
+[SERVIDOR] Nueva conexión desde 130.10.2.20:50533
+
+[Thread-0] 130.10.2.20 ((anónimo)): Comando recibido: LOGIN juan ****
+
+[Thread-0] 130.10.2.20 (juan): Login correcto
+
+[Thread-0] 130.10.2.20 (juan): Comando recibido: LIST
+
+[Thread-0] 130.10.2.20 (juan): LIST enviado (0 archivos)
+
+[Thread-0] 130.10.2.20 (juan): El cliente cerró la conexión sin enviar EXIT
+
+[Thread-0] 130.10.2.20 (juan): Sesión cerrada
+
+[SERVIDOR] Nueva conexión desde 130.10.2.20:50603
+
+[Thread-1] 130.10.2.20 ((anónimo)): Comando recibido: LIST
+
+[Thread-1] 130.10.2.20 ((anónimo)): Comando recibido: LOGIN juan ****
+
+[Thread-1] 130.10.2.20 (juan): Login correcto
+
+[Thread-1] 130.10.2.20 (juan): Comando recibido: UPLOAD C:\Users\Redes-20\Downloads\descarga.jpg
+
+[Thread-1] 130.10.2.20 (juan): UPLOAD completo: descarga.jpg (7283 bytes)
+
+[Thread-1] 130.10.2.20 (juan): Comando recibido: LIST
+
+[Thread-1] 130.10.2.20 (juan): LIST enviado (1 archivos)
+
+[Thread-1] 130.10.2.20 (juan): Comando recibido: DOWNLOAD descarga.jpg
+
+[Thread-1] 130.10.2.20 (juan): DOWNLOAD completo: descarga.jpg (7283 bytes)
+
+[Thread-1] 130.10.2.20 (juan): Comando recibido: EXIT
+
+[Thread-1] 130.10.2.20 (juan): Sesión cerrada
+
+
+
+
+
+IP del servidor: 130.10.2.19
+
+Conectado a 130.10.2.19:5000
+
+Comandos: LOGIN <usuario> <clave> | LIST | UPLOAD <archivo> | DOWNLOAD <archivo> | EXIT
+
+>
+
+>
+
+> LIST
+
+ERROR: Debe autenticarse primero con LOGIN <usuario> <clave>
+
+>
+
+> LOGIN juan 1234
+
+OK: Bienvenido juan
+
+>
+
+>
+
+> UPLOAD C:\Users\Redes-20\Downloads\descarga
+
+El archivo local no existe: C:\Users\Redes-20\Downloads\descarga
+
+>
+
+>
+
+> UPLOAD C:\Users\Redes-20\Downloads\descarga.jpg
+
+OK: 'descarga.jpg' subido (7283 bytes)
+
+>
+
+> LIST
+
+Archivos en la nube (1):
+
+descarga.jpg 7283 bytes
+
+>
+
+>
+
+>
+
+> DOWNLOAD descarga.jpg
+
+Descargado en C:\Users\Redes-20\Desktop\Nueva carpeta\TP-7\descargas_cliente\descarga.jpg (7283 bytes)
+
+>
+
+>
+
+>
+
+>
+
+>
+
+> EXIT
+
+OK: Sesión finalizada
+
+Conexión cerrada.
