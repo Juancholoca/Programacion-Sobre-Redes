@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
-public class ej1 {
+public class Ej1 {
 	
 	  public void ejecutar() throws Exception {
 
